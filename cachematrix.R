@@ -1,9 +1,5 @@
 ## Assignment 2
 ## Alejandro Rivero
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
 ## Construct special matrix to compute inverse
 makeCacheMatrix <- function(x = matrix()) {
   inverse <- NULL
@@ -20,8 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-## Compute the inverse of a swaure matrix using the data saved
+## Compute the inverse of a square matrix using the data saved
 ## in cache if available.
 
 cacheSolve <- function(x, ...) {
